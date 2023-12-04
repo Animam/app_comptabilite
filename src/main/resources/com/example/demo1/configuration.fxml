@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="792.0"
+            prefWidth="684.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <TextField layoutX="14.0" layoutY="42.0" prefHeight="24.0" prefWidth="214.0" promptText="Votre Nom"/>
+        <TextField layoutX="247.0" layoutY="42.0" prefHeight="24.0" prefWidth="214.0" promptText="Votre Prenom"/>
+        <TextField layoutX="484.0" layoutY="42.0" prefHeight="24.0" prefWidth="192.0" promptText="Votre Email"/>
+        <Label layoutX="82.0" layoutY="94.0" text="Nom de la societe:">
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </Label>
+        <Label layoutX="82.0" layoutY="140.0" text="IFU / IDU / NINEA">
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </Label>
+        <Label layoutX="87.0" layoutY="204.0" text="RCCM">
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </Label>
+        <Label layoutX="82.0" layoutY="252.0" text="CONCTACT">
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </Label>
+        <Label layoutX="84.0" layoutY="310.0" text="Secteur d'activite:">
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </Label>
+        <Label layoutX="92.0" layoutY="372.0" text="Pays">
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </Label>
+        <Label layoutX="93.0" layoutY="427.0" text="Ville">
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </Label>
+        <Label layoutX="91.0" layoutY="482.0" text="Seuil d'alerte produit en stock:">
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="629.0" text="FORMAT  PAPIER">
+            <font>
+                <Font name="DejaVu Sans Bold" size="14.0"/>
+            </font>
+        </Label>
+        <CheckBox layoutX="91.0" layoutY="535.0" mnemonicParsing="false"
+                  text="Cocher si vos prix de vente sont negociables">
+            <font>
+                <Font name="DejaVu Sans Bold" size="14.0"/>
+            </font>
+        </CheckBox>
+        <CheckBox layoutX="91.0" layoutY="589.0" mnemonicParsing="false"
+                  text="Cocher pour activer l'impression des factures.">
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </CheckBox>
+        <TextField layoutX="323.0" layoutY="85.0" prefHeight="35.0" prefWidth="261.0"/>
+        <TextField layoutX="322.0" layoutY="131.0" prefHeight="35.0" prefWidth="261.0"/>
+        <TextField layoutX="322.0" layoutY="186.0" prefHeight="35.0" prefWidth="261.0"/>
+        <TextField layoutX="324.0" layoutY="419.0" prefHeight="35.0" prefWidth="261.0"/>
+        <TextField layoutX="325.0" layoutY="473.0" prefHeight="35.0" prefWidth="134.0" promptText="1"/>
+        <ComboBox layoutX="325.0" layoutY="301.0" prefHeight="35.0" prefWidth="186.0" promptText="Commerce"/>
+        <ComboBox layoutX="325.0" layoutY="363.0" prefHeight="35.0" prefWidth="186.0" promptText="Ouagadougou"/>
+        <TextField layoutX="324.0" layoutY="243.0" prefHeight="35.0" prefWidth="261.0"/>
+        <TextField layoutX="92.0" layoutY="659.0" prefHeight="35.0" prefWidth="304.0"
+                   promptText="Inserez ce message sous chaque facture"/>
+        <ComboBox layoutX="240.0" layoutY="626.0" prefHeight="24.0" prefWidth="158.0" promptText="A4"/>
+        <Line endX="450.0" layoutX="220.0" layoutY="709.0" startX="-211.0" stroke="#c3bdbd"/>
+        <Button layoutX="82.0" layoutY="732.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="158.0"
+                text="Tout Renitialiser">
+            <font>
+                <Font name="DejaVu Sans Bold" size="13.0"/>
+            </font>
+        </Button>
+        <Button layoutX="397.0" layoutY="732.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="144.0"
+                text="Confirmer">
+            <font>
+                <Font name="DejaVu Sans Bold" size="13.0"/>
+            </font>
+        </Button>
+    </children>
+</AnchorPane>
