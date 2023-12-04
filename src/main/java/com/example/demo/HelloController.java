@@ -1,4 +1,4 @@
-package com.example.demo1;
+package com.example.demo;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -17,7 +17,7 @@ public class HelloController {
     private Scene scene;
     private Parent root;
     @FXML
-    Button btnNewVente,btnFermerVente;
+    Button btnNewVente,btnFermerVente,decaissement;
 
     public void switchToComptable(ActionEvent event) throws IOException {
 
@@ -37,12 +37,12 @@ public class HelloController {
         stage.show();
     }
 
-//    public  void switchToDecaissemnt(ActionEvent event) throws IOException {
-//
-//        Parent root = FXMLLoader.load(getClass().getResource("decaissement.fxml"));
-//        stage = (Stage)decaissement.getScene().getWindow();
-//        scene = new Scene(root);
-//        stage.setScene(scene);
-//        stage.show();
-//    }
+    public  void switchToDecaissemnt(ActionEvent event) throws IOException {
+
+        Parent root = FXMLLoader.load(getClass().getResource("decaissement.fxml"));
+        stage = (Stage)decaissement.getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
 }
